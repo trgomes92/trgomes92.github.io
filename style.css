@@ -1,22 +1,39 @@
-
 body {
   height: 100%;
 }
 
 #bg-manha {
-  background: linear-gradient(0deg, #cdb4c4 3%, #fddad4 37%, #fedfda 50%, #d2d1df 100%);
+  background: linear-gradient(
+    0deg,
+    #cdb4c4 3%,
+    #fddad4 37%,
+    #fedfda 50%,
+    #d2d1df 100%
+  );
 }
 
 #bg-dia {
-  background: linear-gradient(166deg, #63beff 0%,#a5e2ff -3%, #1980ff 92%);
+  background: linear-gradient(166deg, #63beff 0%, #a5e2ff -3%, #1980ff 92%);
 }
 
 #bg-tarde {
-  background: linear-gradient(180deg, #b067f6a6 -16%,#ffa8b1 32%,#ffd6a0 70%,#db5a6ee3 112%);
+  background: linear-gradient(
+    180deg,
+    #b067f6a6 -16%,
+    #ffa8b1 32%,
+    #ffd6a0 70%,
+    #db5a6ee3 112%
+  );
 }
 
 #bg-noite {
-  background: linear-gradient(180deg, #0f0d5c 3%,#171688 25%,#27167e 66%,#1b0e5e 108%);
+  background: linear-gradient(
+    180deg,
+    #0f0d5c 3%,
+    #171688 25%,
+    #27167e 66%,
+    #1b0e5e 108%
+  );
 }
 
 header {
@@ -25,7 +42,7 @@ header {
   padding: 30px 0;
 }
 
-h1{
+h1 {
   color: rgb(255, 255, 255);
   font-size: 4em;
   font-weight: 700;
@@ -33,8 +50,7 @@ h1{
   text-shadow: 1px 1px 1px #919191, 3px 5px 3px rgb(16 16 16 / 12%);
   text-align: center;
   letter-spacing: 0.3px;
-  font-family: 'Arial';
-
+  font-family: "Arial";
 }
 
 section {
@@ -49,7 +65,7 @@ section {
   box-shadow: 3px 3px 10px rgb(22 22 22 / 8%);
 }
 
-#msg{
+#msg {
   color: rgb(255, 255, 255);
   font-size: 4em;
   font-weight: 700;
@@ -57,10 +73,10 @@ section {
   text-shadow: 1px 1px 1px #919191, 3px 5px 3px rgb(16 16 16 / 12%);
   text-align: center;
   letter-spacing: 8.3px;
-  font-family: 'Arial';
+  font-family: "Arial";
 }
 
-#foto img{
+#foto img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -70,15 +86,14 @@ section {
   outline-offset: -10px;
 }
 
-
-img:hover{
+img:hover {
   backface-visibility: hidden;
   transform: scale(1.15, 1.15);
   opacity: 1;
 }
 
-#mensagem{
-  display:flex;
+#mensagem {
+  display: flex;
   justify-content: center;
   background: rgba(7, 7, 7, 0.205);
   color: rgb(255, 255, 255);
@@ -86,28 +101,27 @@ img:hover{
   font-size: 20px;
   letter-spacing: 1.5px;
   border-radius: 5px;
-  font-family: 'Arial';
+  font-family: "Arial";
   margin: 0px;
   width: 297px;
   transform: translate(4%, 768%);
   transition: all 0.4s ease-out;
 }
 
-
 #manha {
-  background: no-repeat -241px -42px/620%  url("/img/horarios\ do\ dia.png");
+  background: no-repeat -241px -42px/620% url("img/horarios\ do\ dia.png");
 }
 
 #dia {
-  background: no-repeat -1177px -42px/620% url("/img/horarios\ do\ dia.png");
+  background: no-repeat -1177px -42px/620% url("img/horarios\ do\ dia.png");
 }
 
 #tarde {
-  background: no-repeat -254px -384px/620% url("/img/horarios\ do\ dia.png");
+  background: no-repeat -254px -384px/620% url("img/horarios\ do\ dia.png");
 }
 
 #noite {
-  background: no-repeat -1170px -384px/620%  url("/img/horarios\ do\ dia.png");
+  background: no-repeat -1170px -384px/620% url("img/horarios\ do\ dia.png");
 }
 
 footer {
