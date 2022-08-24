@@ -2,12 +2,14 @@ var msg = document.getElementById("msg");
 var img = document.getElementById("imagem");
 var fundo = document.getElementById("bg");
 var data = new Date();
-var h = data.getHours();
-var m = data.getMinutes();
-var s = data.getSeconds();
+var h = ('0' + data.getHours()).slice(-2);
+var m = ('0' + data.getMinutes()).slice(-2);
+var s = ('0' + data.getSeconds()).slice(-2);
+
 
 var hora = `${h}:${m}:${s}`;
 msg.innerHTML = `${hora}`;
+
 
 
 if (h >= 6 && h < 12) {
