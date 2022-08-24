@@ -1,11 +1,12 @@
+function relogio() {
 var msg = document.getElementById("msg");
 var img = document.getElementById("imagem");
 var fundo = document.getElementById("bg");
 var data = new Date();
-var h = ('0' + data.getHours()).slice(-2);
-var m = ('0' + data.getMinutes()).slice(-2);
-var s = ('0' + data.getSeconds()).slice(-2);
-
+var h = ('0' + data.getHours()).slice(-2); //Hora
+var m = ('0' + data.getMinutes()).slice(-2); //Min
+var s = ('0' + data.getSeconds()).slice(-2); //Seg
+setTimeout('relogio()')
 
 var hora = `${h}:${m}:${s}`;
 msg.innerHTML = `${hora}`;
@@ -33,3 +34,5 @@ if (h >= 6 && h < 12) {
   fundo.id = "bg-noite";
   mensagem.innerHTML = `Boa Madrugada`;
 }
+}
+relogio(); // exibe a função
